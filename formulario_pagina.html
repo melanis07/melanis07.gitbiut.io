@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>₲Ɇ₳Ɽ₴Ⱨł₣₮ɆĐ Ø₮₳₭Ʉ</title>
+</head>
+<body>
+    <h2><strong>Formulario de Calificación de Página Web</strong></h2>
+
+<form action="/submit-rating" method="post">
+  <label for="name">Nombre:</label><br>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="email">Correo electrónico:</label><br>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for="rating">Calificación:</label><br>
+  <select id="rating" name="rating" required>
+    <option value="5">Excelente</option>
+    <option value="4">Muy Bueno</option>
+    <option value="3">Bueno</option>
+    <option value="2">Regular</option>
+    <option value="1">Malo</option>
+  </select><br>
+
+  <label for="comments">Comentarios:</label><br>
+  <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+  <input type="submit" value="Enviar Calificación">
+</form>
+</body>
+</html>
